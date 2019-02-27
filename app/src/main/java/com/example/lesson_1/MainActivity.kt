@@ -18,6 +18,9 @@ class MainActivity : AppCompatActivity() {
         //Random value for the second activity
         val rand1 =  Random.nextInt(0, 10)
         //Associate Second Number(tvNumber2) to the Variable (rand1)
+//        tvNumber2.text = String.valueOf(rand1)
+
+        //Testing the Val into textView
         tvNumber1.text = String.valueOf(rand1)
 
 
